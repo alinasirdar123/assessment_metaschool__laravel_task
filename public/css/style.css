@@ -1,0 +1,273 @@
+body {
+    color: #323232;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.l-header_overlay {
+    position: relative;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+::selection {
+    color: #fff;
+    background: #739ACA;
+    text-shadow: none;
+}
+.nopadding {
+    padding: 0!important;
+}
+.menuzord {
+    position: relative;
+    float: left;
+    width: 100%;
+    /* width: 90%; */
+    padding: 5px 0 0;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    background: 0 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+.menuzord .showhide {
+    display: none;
+    float: right;
+    width: 30px;
+    height: 46px;
+    padding: 13px 0 0;
+    text-decoration: none;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+#footer .f-list li a:hover, .blog-classic .blog-post h4 a:hover, .cd-nav .cd-primary-nav li.selected a, .comments-list .comment-author a:hover, .comments-list .comment-info .comment-author a:hover, .comments-list .comment-info a:hover, .comments-list .comment-item-data a:hover, .f-link:hover, .featured-item.border-box:hover .icon i, .icon-tabs .nav-pills>li.active>a, .icon-tabs .nav-pills>li.active>a:focus, .icon-tabs .nav-pills>li.active>a:hover, .icon-tabs .nav-pills>li>a:hover, .intro-portfolio a:hover, .menuzord-menu>li.active>a, .menuzord-menu>li:hover>a, .no-touch .cd-nav .cd-primary-nav a:hover, .portfolio-description a:hover, .portfolio-title a:hover, .portfolio-with-title .portfolio-title h4 a:hover, .portfolio-with-title.blog-m .portfolio-title .date a:hover, .post-list .post-single .post-cat li a, .post-meta li a:hover, .post-single .post-cat li a:hover, .post-single .post-desk a.author:hover, .post-single .post-desk h4 a:hover, .post-sub-title, .price-col.feature h1, .product-title h5 a:hover, .t-s-link a:hover, .team-member .s-link a:hover, .widget-category li a:hover, .widget-comments li a:hover, .widget-latest-post .w-desk a:hover, a {
+    color: #838C79;
+}
+.btn, a {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+a {
+    text-decoration: none!important;
+}
+.menuzord .showhide em {
+    float: right;
+    width: 20px;
+    height: 3px;
+    margin: 3.5px 0 0;
+    background: #777;
+}
+em {
+    font-style: italic;
+}
+.menuzord .showhide {
+    display: none;
+    float: right;
+    width: 30px;
+    height: 46px;
+    padding: 13px 0 0;
+    text-decoration: none;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+.logo-brand {
+    float: left;
+    height: 50px;
+    margin-right: 20px;
+    color: #666;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.logo-brand img {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    margin: 0 0 2px 40px;
+    width: 150px;
+}
+a img, iframe {
+    border: none;
+}
+.menuzord-menu.menuzord-right {
+    float: right;
+}
+.menuzord-menu {
+    float: left;
+    margin: 0;
+    padding: 0 30px 0 0;
+    list-style: none;
+}
+.menuzord-menu>li {
+    display: inline-block;
+    float: left;
+    margin-left: 2px;
+}
+.menuzord-menu>li>a {
+    display: inline-block;
+    padding: 0 12px;
+    text-decoration: none;
+    color: #333;
+    outline: 0;
+    font-size: 13px;
+    font-weight: 400;
+    -webkit-tap-highlight-color: transparent;
+}
+.menuzord-menu a {
+    -webkit-transition: color .3s,background .3s;
+    transition: color .3s,background .3s;
+}
+.menuzord-menu li .indicator {
+    margin-left: 3px;
+}
+.menuzord-menu ul.dropdown, .menuzord-menu ul.dropdown li ul.dropdown {
+    background: #fff;
+}
+.menuzord-menu ul.dropdown, .menuzord-menu ul.dropdown li ul.dropdown {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 190px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+}
+.menuzord-menu ul.dropdown, .menuzord-menu ul.dropdown li ul.dropdown {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 190px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+}
+.menuzord-menu ul.dropdown li {
+    position: relative;
+    clear: both;
+    width: 100%;
+    border: 0;
+    font-size: 13px;
+}
+.menuzord-menu ul.dropdown li a {
+    position: relative;
+    display: inline-block;
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 10px 25px 10px 22px;
+    text-decoration: none;
+    color: #222;
+    outline: 0;
+    background: 0 0;
+}
+.menuzord-menu ul.dropdown li a, .menuzord-menu>li>.megamenu a, .menuzord-menu>li>.megamenu h5 {
+    color: #222;
+}
+.menuzord-menu.scrollable>.scrollable-fix {
+    display: none;
+}
+.menuzord-menu ul.dropdown, .menuzord-menu ul.dropdown li ul.dropdown {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 190px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fff;
+}
+.menuzord-menu>li:hover .dropdown{
+    display: block;
+}
+.menuzord .menuzord-menu ul.dropdown li:hover>a, .menuzord-menu>li>.megamenu .megamenu-row li:hover>a {
+    color: #fff;
+}
+.accordion.time-line>dt>a.active:after, .accordion.time-line>dt>a.active:hover:after, .accordion.time-line>dt>a:hover:after, .btn-dark-solid:focus, .btn-dark-solid:hover, .btn-light-solid:hover, .btn-theme-border-color:hover, .btn-theme-color, .feature-border-box:hover .icon, .lift-off:hover, .menuzord-menu ul.dropdown li:hover>a, .menuzord-menu>li>.megamenu .megamenu-row li:hover a, .price-col.feature .p-btn:hover, .sale-label, .side-social-link a:hover, .stock .status, .toggle.time-line>dt>a.active:after, .toggle.time-line>dt>a.active:hover:after, .toggle.time-line>dt>a:hover:after, .travel-form.icon-tabs .nav-pills>li.active:hover>a, .travel-form.icon-tabs .nav-pills>li.active>a, .travel-form.icon-tabs .nav-pills>li.active>a:focus, .travel-form.icon-tabs .nav-pills>li>a:hover, .widget-social-link a:hover, .widget-tags a:hover {
+    background: #739ACA;
+}
+.sub-li-main{
+    font-weight: 800;
+    font-size: 95%;
+}
+
+/*footer css start*/
+footer{
+    background: #0A142F;
+}
+.quick-link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;color: #FFFFFF;
+}
+.quick-link-h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.copy-right-h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.7;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 40px;
+}
+
+/*footer css end*/
+@media (min-width: 769px){
+    .l-header_overlay {
+        z-index: 1200;
+        top: 0;
+        width: 100%;
+    }
+    .l-navbar-wrapper, .logo-brand, .menuzord-menu>li>a {
+        -webkit-transition: height .3s,line-height .3s,margin .3s;
+        transition: height .3s,line-height .3s,margin .3s;
+    }
+    .l-navbar-wrapper, .logo-brand, .menuzord-menu>li>a {
+        -webkit-transition: height .3s,line-height .3s,margin .3s;
+        transition: height .3s,line-height .3s,margin .3s;
+    }
+    .c-nav_s-standard>li>a, .logo-brand {
+        line-height: 70px;
+    }
+    .l-navbar-wrapper, .logo-brand, .menuzord-menu>li>a {
+        -webkit-transition: height .3s,line-height .3s,margin .3s;
+        transition: height .3s,line-height .3s,margin .3s;
+    }
+    .c-nav_s-standard>li>a, .logo-brand {
+        line-height: 70px;
+    }
+    .c-nav_s-standard>li>a, .logo-brand {
+        line-height: 70px;
+    }
+    .l-navbar-wrapper_has-sticky .l-navbar, .l-navbar_s-left, .menuzord-menu .dropdown, .menuzord-menu .megamenu {
+        box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    }
+    .menuzord-menu .dropdown, .menuzord-menu .megamenu {
+        text-align: left;
+        border: 0!important;
+    }
+    .menuzord-menu a {
+        -webkit-transition: color .3s,background .3s;
+        transition: color .3s,background .3s;
+    }
+}
